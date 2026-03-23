@@ -13,13 +13,12 @@
     }
   }
 
-  // --- ДОДАТКОВИЙ ФУНКЦІОНАЛ (Пункт 1.2.3) ---
+  // ДОДАТКОВИЙ ФУНКЦІОНАЛ
   console.log("\n--- Додатковий функціонал ---");
   console.log("Якщо ім'я закінчується на літеру 'a', програма прощається, інакше - вітається.");
   
   for (var j = 0; j < names.length; j++) {
     var currentName = names[j];
-    // Отримуємо останню літеру імені
     var lastLetter = currentName.charAt(currentName.length - 1).toLowerCase();
 
     if (lastLetter === 'a') {
